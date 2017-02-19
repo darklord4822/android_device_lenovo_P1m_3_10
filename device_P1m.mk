@@ -81,6 +81,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += power.mt6735
 
+# FMRadio
+PRODUCT_PACKAGES += \
+    libfmjni \
+    FMRadio
+
 # Wifi
 PRODUCT_PACKAGES += \
     audio.a2dp.default \

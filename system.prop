@@ -50,6 +50,8 @@ wifi.direct.interface=p2p0
 # audio
 ro.camera.sound.forced=0
 ro.audio.silent=0
+persist.af.audio_patch_fm=1
+fmradio.driver.enable=1
 
 ro.zygote.preload.enable=0
 
